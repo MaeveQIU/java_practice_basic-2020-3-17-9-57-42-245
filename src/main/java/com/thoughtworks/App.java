@@ -22,6 +22,7 @@ public class App {
     // 查找所有学生并打印
     System.out.println("所有学生----------------------------------------------");
     repository.query().forEach(System.out::println);
+
     // 查询1-1R班的所有同学的信息并按照学号倒序排列
     System.out.println("1-1班的学生-------------------------------------------");
     repository.queryByClassId("1-1").forEach(System.out::println);
