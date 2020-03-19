@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class App {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     // 创建一批学生
     Student student1 = new Student("001", "张三", "男", 2020, "1994-01-12", "1-13");
     Student student2 = new Student("002", "李四", "男", 2020, "1994-05-25", "1-1");
